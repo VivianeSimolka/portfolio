@@ -10,6 +10,8 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
+
+    <script src="https://kit.fontawesome.com/742fdc3427.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="/style.css" />
     <title>About me - Viviane - data analyst</title>
         <meta
@@ -40,10 +42,10 @@
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="/about.html" title="About Viviane">About me</a>
+              <a class="nav-link active" href="/about.html" title="About Viviane">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/about.html#contact" title="Contact Viviane">Contact me</a>
+              <a class="nav-link" href="/about.html#contact" title="Contact Viviane">Contact</a>
             </li>
           </ul>
         </div>
@@ -51,40 +53,34 @@
     </nav>
     <h1>About me</h1>
     <h3>Data Analyst based in Berlin, Germany</h3>
-    <div class="about-paragraphs text-center">
-      <p>
+    <div class="container">
+      <div class="row justify-content-around">
+        <div class="col-sm-6">
+          <div class="mt-1 d-flex justify-content-center">
+          <img
+            src="/images/viviane.png"
+            class="img-fluid p-2 shadow rounded project mb-4"
+            alt="Viviane"
+          />
+        </div>
+        </div>
+        <div class="col-sm-6 about-paragraphs">
+          <p>
         I am tech enthousiast, who loves learning new things, especially how
         things are built and work.
+        <br/>
+        I hold a Master of Science in Management and recently completed a data science bootcamp at Le Wagon.
+        <br/>
+        After more than 8 years of experience in financial controlling, I now want to become more technical in the field of data.
       </p>
-    </div>
-    <div class="container">
-      <div class="row justify-content-evenly">
-        <div class="col-sm-4">
-          <img
-            src="/images/yoga.png"
-            class="img-fluid p-2 shadow rounded project mb-4"
-            alt="yoga"
-          />
-        </div>
-        <div class="col-sm-4">
-          <img
-            src="/images/weather.png"
-            class="img-fluid p-2 shadow rounded project mb-4"
-            alt="weather"
-          />
-        </div>
-        <div class="col-sm-4">
-          <img
-            src="/images/yogurt.png"
-            class="img-fluid p-2 shadow rounded project mb-4"
-            alt="yogurt"
-          />
         </div>
       </div>
     </div>
     <div id="contact">
-      <h2 class="main">📮 Contact me</h2>
-      <a href="mailto:viviane@stuff.io" class="email-link" title="Email address">viviane@stuff.io</a>
+      <h2 class="main">Contact me</h2>
+      <a href="https://www.linkedin.com/in/viviane-simolka/" class="contact-links" title="LinkedIn" target="blank_"><i class="fa-brands fa-linkedin"></i></a>
+      <a href="https://github.com/VivianeSimolka" class="contact-links" title="GitHub" target="blank_"><i class="fa-brands fa-github-square"></i></a>
+      <a href="https://www.codewars.com/users/Vivianeblipblip" class="contact-links" title="Codewars" target="blank_"><i class="fa-brands fa-python"></i></a>
     </div>
   </body>
 </html>
