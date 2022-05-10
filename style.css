@@ -112,6 +112,7 @@ h2 .main {
 .project {
   max-width: 100%;
   height: auto;
+  padding-top: 20px;
 }
 
 .project-link {
